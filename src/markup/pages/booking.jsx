@@ -58,10 +58,11 @@ class Booking extends Component{
 											</div>
 											<div className="form-group">
 												<select className="form-select form-control">
-													<option selected>Select Doctor</option>
-													<option value="1">One</option>
-													<option value="2">Two</option>
-													<option value="3">Three</option>
+													<option defaultValue disabled>Select Doctor</option>
+													<option value="1">Dr Chisom Onyeka</option>
+													<option value="2">Dr Chinwe Onuegbu</option>
+													<option value="3">Dr Sandra Ala</option>
+													<option value="3">Dr Benedicta Ahiakwo</option>
 												</select>
 											</div>
 											<div className="form-group">
@@ -73,7 +74,7 @@ class Booking extends Component{
 											<div className="form-group">
 												<input type="date" className="form-control"/>
 											</div>
-											<button type="submit" className="btn btn-secondary btn-lg">Appointment Now</button>
+											<button type="submit" className="btn btn-secondary btn-lg">Book Now</button>
 										</form>
 									</div>
 								</div>
