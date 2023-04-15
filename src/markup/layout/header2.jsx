@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Sticky from 'react-stickynode';
 
@@ -6,10 +6,9 @@ import Sticky from 'react-stickynode';
 import logo from '../../images/others/logo.png';
 import logoWhite from '../../images/logo-white.png';
 
-class Header extends Component{
-	
-	componentDidMount() {
-		
+const Header = () => {
+
+	useEffect(() => {
 		// Search Form Popup
 		var searchBtn = document.getElementById("quikSearchBtn")
         var searchForm = document.querySelector(".nav-search-bar")
@@ -54,10 +53,10 @@ class Header extends Component{
                 console.log("close")
             }
         }
-		
-    }
+	}, [])
 	
-	render(){
+	
+	
 		return(
 			<>
 				<header className="header rs-nav">
@@ -118,6 +117,5 @@ class Header extends Component{
 			</>
 		);
 	}
-}
 
 export default Header;

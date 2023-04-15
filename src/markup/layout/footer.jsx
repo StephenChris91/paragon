@@ -48,7 +48,6 @@ const FooterSection = () => {
 											<li><Link to="/services"><span>Services</span></Link></li>
 											<li><Link to="/booking"><span>Booking</span></Link></li>
 											<li><Link to="/faq"><span>Faq's</span></Link></li>
-											<li><Link to="/blog-grid"><span>Blogs</span></Link></li>
 											<li><Link to="/team"><span>Out Team</span></Link></li>
 										</ul>
 									</div>
@@ -57,12 +56,12 @@ const FooterSection = () => {
 									<div className="widget footer_widget">
 										<h3 className="footer-title">Our Service</h3>
 										<ul>
-											<li><Link to="/service-detail"><span>Dental Care</span></Link></li>
-											<li><Link to="/service-detail"><span>Cardiac Clinic</span></Link></li>
-											<li><Link to="/service-detail"><span>Massege Therapy</span></Link></li>
-											<li><Link to="/service-detail"><span>Cardiology</span></Link></li>
-											<li><Link to="/service-detail"><span>Precise Diagnosis</span></Link></li>
-											<li><Link to="/service-detail"><span>Abmbulance Services</span></Link></li>
+											<li><Link to="/"><span>Dental Care</span></Link></li>
+											<li><Link to="/"><span>Cardiac Clinic</span></Link></li>
+											<li><Link to="/"><span>Massege Therapy</span></Link></li>
+											<li><Link to="/"><span>Cardiology</span></Link></li>
+											<li><Link to="/"><span>Precise Diagnosis</span></Link></li>
+											<li><Link to="/"><span>Abmbulance Services</span></Link></li>
 										</ul>
 									</div>
 								</div>

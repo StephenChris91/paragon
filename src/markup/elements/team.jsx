@@ -12,89 +12,58 @@ import ptImg4 from '../../images/shap/wave-blue.png';
 import ptImg5 from '../../images/shap/circle-dots.png';
 
 const TeamSection = () => {
+	const doctors = [
+		{
+			firstName: 'Chisom',
+			lastName: 'Onyeka',
+			title: 'HR/Administrator',
+			image: teamMember3,
+		}, 
+		{
+			firstName: 'Dr Chinwe',
+			lastName: 'Onuegbu',
+			title: 'Head of Services',
+			image: teamMember4
+		},
+		{
+			firstName: 'Sandra',
+			lastName: 'Ala',
+			title: 'Head of Operations',
+			image: teamMember2
+		},
+		{
+			firstName: 'Benedicta',
+			lastName: 'Ahiakwo',
+			title: 'Head of Finance',
+			image: teamMember1
+		},
+	]
 		return(
 			<>
 				
 				<section className="section-area section-sp3 team-wraper">
 					<div className="container">
 						<div className="heading-bx text-center">
-							<h6 className="title-ext text-secondary">Our Doctor</h6>
+							<h6 className="title-ext text-secondary">Our Doctors</h6>
 							<h2 className="title">Meet Best Doctors</h2>
 						</div>
 						<div className="row justify-content-center">
-							<div className="col-lg-4 col-sm-6 mb-30">
+							{doctors.map(doctor => (
+								<div className="col-lg-3 col-sm-6 mb-30" key={doctor.firstName}>
 								<div className="team-member">
 									<div className="team-media">
-										<img src={teamMember1} alt=""/>
+										<img src={doctor.image} alt=""/>
 									</div>
 									<div className="team-info">
 										<div className="team-info-comntent">
-											<h4 className="title">Benedicta Ahiakwo</h4>
-											<span className="text-secondary"> Head of Finance</span>
+											<h4 className="title">{doctor.firstName} <br /> {doctor.lastName}</h4>
+											<span className="text-secondary">{doctor.title}</span>
 										</div>
-										<ul className="social-media">
-											<li><a rel="noreferrer" target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
-										</ul>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-4 col-sm-6 mb-30">
-								<div className="team-member active">
-									<div className="team-media">
-										<img src={teamMember2} alt=""/>
-									</div>
-									<div className="team-info">
-										<div className="team-info-comntent">
-											<h4 className="title">Sandra Ala</h4>
-											<span className="text-secondary">Head of  Operations</span>
-										</div>
-										<ul className="social-media">
-											<li><a rel="noreferrer" target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-4 col-sm-6 mb-30">
-								<div className="team-member">
-									<div className="team-media">
-										<img src={teamMember3} alt=""/>
-									</div>
-									<div className="team-info">
-										<div className="team-info-comntent">
-											<h4 className="title">Chisom Onyedika</h4>
-											<span className="text-secondary">HR/Administrator</span>
-										</div>
-										<ul className="social-media">
-											<li><a rel="noreferrer" target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-4 col-sm-6 mb-30">
-								<div className="team-member">
-									<div className="team-media">
-										<img src={teamMember4} alt=""/>
-									</div>
-									<div className="team-info">
-										<div className="team-info-comntent">
-											<h4 className="title">Dr. Chinwe Onuegbu</h4>
-											<span className="text-secondary">Head of Clinical Services</span>
-										</div>
-										<ul className="social-media">
-											<li><a rel="noreferrer" target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a></li>
-											<li><a rel="noreferrer" target="_blank" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
+							))}
+						</div> 
 					</div>
 					<img className="pt-img1 animate1" src={ptImg1} alt=""/>
 					<img className="pt-img2 animate2" src={ptImg2} alt=""/>
