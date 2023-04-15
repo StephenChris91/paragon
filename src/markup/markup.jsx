@@ -24,14 +24,9 @@ function Markup() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/team" element={<Team />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/form-login" element={<FormLogin />} />
-        <Route path="/form-register" element={<FormRegister />} />
-        <Route path="/form-forget-password" element={<FormForgetPassword />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/booking" element={<Booking />} />
-        <Route path="/blog-grid" element={<BlogGrid />} />
-        <Route path="/blog-details" element={<BlogDetails />} />
         <Route path="*" element={<Error404 />} /> {/* Catch-all route for 404 page */}
       </Routes>
   );

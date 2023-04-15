@@ -63,8 +63,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">General Medicine</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -83,8 +81,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">General Surgery</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -103,8 +99,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Paediatrics</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -120,8 +114,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Radiology</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -140,10 +132,7 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Physiotherapy</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
-										
 									</div>
 								</div>
 								<div className="slider-item">
@@ -158,8 +147,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Radiology</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -178,10 +165,7 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Physiotherapy</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
-										
 									</div>
 								</div>
 								<div className="slider-item">
@@ -196,8 +180,6 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Internal Medicine</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
 									</div>
 								</div>
@@ -216,10 +198,7 @@ const ServicesSliderSection = () => {
 										</div>
 										<div className="icon-content">
 											<h3 className="ttr-title">Aesthetic Medicine</h3>
-											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
 										</div>
-										
 									</div>
 								</div>
 							</Slider>
