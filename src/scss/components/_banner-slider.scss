@@ -1,0 +1,86 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    background-image: url('../../images/main-banner/shape1.png');
+    z-index: 99;
+    margin-top: 100px;
+
+    .slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+
+        .slide-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+
+            h1 {
+                font-size: 6.5rem;
+                margin: 0;
+                color: white;
+                text-shadow: 1px 1px #000;
+            }
+        }
+
+
+        &.active {
+            opacity: 1;
+        }
+    }
+
+    .dots {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #fff;
+            opacity: 0.5;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: opacity 0.5s ease-in-out;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    &.autoplay {
+        .slide {
+            animation: slide 5s infinite;
+        }
+    }
+
+    @keyframes slide {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 1;
+        }
+
+        80% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+}

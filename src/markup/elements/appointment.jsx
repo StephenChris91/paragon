@@ -30,9 +30,12 @@ class aboutSection extends Component{
 												<div className="form-group">
 													<select className="form-select form-control">
 														<option selected>Selecty Department</option>
-														<option value="1">One</option>
-														<option value="2">Two</option>
-														<option value="3">Three</option>
+														<option value="1">General Medicine</option>
+														<option value="2">General Surgery</option>
+														<option value="3">Paediatrics</option>
+														<option value="3">Radiology</option>
+														<option value="3">Physiotherapy</option>
+														<option value="3">Internal Medicine</option>
 													</select>
 												</div>
 												<div className="form-group">
