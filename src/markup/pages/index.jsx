@@ -18,7 +18,8 @@ import WorkSection from "../elements/work";
 import AppointmentSection from "../elements/appointment";
 import TestimonialSection from "../elements/testimonial";
 import ServicesSliderSection from "../elements/services-slider";
-import Banner from '../elements/Banner'
+import Banner from '../elements/Banner';
+import WhatsappWidget from '../elements/WhatsappWidget';
 
 const Index = () => {
 
@@ -42,6 +43,8 @@ const Index = () => {
 			<ServicesSliderSection />
 
 			<TestimonialSection />
+
+			<WhatsappWidget />
 
 			<Footer />
 		</>
