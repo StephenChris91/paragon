@@ -38,11 +38,7 @@ const Index = () => {
 
 			<WorkSection />
 
-			<AppointmentSection />
-
 			<ServicesSliderSection />
-
-			<TestimonialSection />
 
 			<WhatsappWidget />
 

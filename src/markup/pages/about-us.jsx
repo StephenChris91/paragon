@@ -53,8 +53,6 @@ const AboutUs = () => {
 
 				<TeamSection />
 
-				<TestimonialSection />
-
 			</div>
 
 			<Footer />

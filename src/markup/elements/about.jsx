@@ -103,7 +103,7 @@ const aboutSection = () => {
 									</div>
 								</div>
 							</div>
-							<Link to="/about-us" className="btn btn-primary shadow">Read More</Link>
+							<Link to="/booking" className="btn btn-primary shadow">Book An Appointment</Link>
 						</div>
 					</div>
 				</div>
