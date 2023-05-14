@@ -1,8 +1,24 @@
 /* ==================
 	8.23 Work Box
 =================== */
+
 .work-area {
-	width: 100px;
+
+	.work-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		gap: 1rem;
+
+		@include respond('phone') {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: auto;
+		}
+	}
 
 	.pt-img1 {
 		bottom: 15%;
@@ -97,6 +113,8 @@
 
 	.btn {
 		font-weight: 600;
+		text-align: center;
+		margin: auto;
 	}
 
 	&.active,
