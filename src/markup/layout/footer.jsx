@@ -47,6 +47,10 @@ const FooterSection = () => {
 										<li><Link to="/services"><span>Services</span></Link></li>
 										<li><Link to="/booking"><span>Booking</span></Link></li>
 										<li><Link to="/about-us"><span>Our Team</span></Link></li>
+										<li><Link to="/"><span>Book An Appointment</span></Link></li>
+										<li><Link to="/"><span>Online Payment</span></Link></li>
+										<li><Link to="/"><span>E- Care</span></Link></li>
+										<li><Link to="/"><span>Talk To A Doctor</span></Link></li>
 									</ul>
 								</div>
 							</div>

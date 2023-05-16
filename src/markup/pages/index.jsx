@@ -37,8 +37,6 @@ const Index = () => {
 
 			<AboutSection />
 
-			<WorkSection />
-
 			<ServicesSliderSection />
 
 			<PartnerLogos />

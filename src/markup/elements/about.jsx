@@ -21,7 +21,6 @@ const aboutSection = () => {
 									<li><img className="about-thumb1" src={aboutThumb1} alt="" /></li>
 									<li><img className="about-thumb2" src={aboutThumb2} alt="" /></li>
 									<li><img className="about-thumb3" src={aboutThumb3} alt="" /></li>
-									<li><div className="exp-bx">20<span>Year Experience</span></div></li>
 								</ul>
 							</div>
 						</div>
