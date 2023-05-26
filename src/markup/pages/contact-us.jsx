@@ -89,7 +89,7 @@ const ContactUs = () => {
 											</div>
 											<div className="icon-box">
 												<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Phone</h6>
-												<Link to="#" className="text-white">iparagonclinics@gmail.com</Link>
+												<Link to="#" className="text-white">paragonclinics@gmail.com</Link>
 												<p>(+234)8086666361</p>
 											</div>
 											<div className="icon-box">
@@ -129,8 +129,8 @@ const ContactUs = () => {
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-title">Email Address</h5>
-										<p>iparagonclinics@gmail.com</p>
-										<p>info@iparagonclinicsandimaging.com</p>
+										<p>paragonclinics@gmail.com</p>
+										<p>info@paragonclinicsandimaging.com</p>
 									</div>
 								</div>
 							</div>

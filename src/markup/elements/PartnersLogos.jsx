@@ -22,7 +22,6 @@ const PartnerLogos = () => {
 
     return (
         <div className="partner-logos">
-            <h1 className='partners-header'>Our Partners</h1>
             <div className="partner-logos-grid container-sm">
                 {partnerLogos.map((partnerLogo, index) => (
                     <img

@@ -39,8 +39,6 @@ const Index = () => {
 
 			<ServicesSliderSection />
 
-			<PartnerLogos />
-
 			<WhatsappWidget />
 
 			<Footer />

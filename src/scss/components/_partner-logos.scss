@@ -1,17 +1,15 @@
-.partner-logos {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.partners-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
+// .partner-logos {
+//     margin-top: 50px;
+//     margin-bottom: 50px;
+// }
 
 .partner-logos-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 .partner-logo {
@@ -19,8 +17,6 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    width: 8%;
+    margin: 0;
 }

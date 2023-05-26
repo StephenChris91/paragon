@@ -40,7 +40,7 @@ const ServicesSliderSection = () => {
 					<div className="col-xl-4 col-lg-7 mb-30">
 						<div className="heading-bx">
 							<h6 className="title-ext text-secondary">Services</h6>
-							<h2 className="title">We Cover A Big Variety Of Medical Services</h2>
+							<h2 className="title">We cover a wide range of medical Services</h2>
 							<p>The Medical staff currently consists of reputable Specialists including an Obstetrician/Gynecologist, a Paediatrician, an Orthopaedic/Traumatology Surgeon, a General Surgeon, a Radiologist, three Physicians (a Nephrologist, a Cardiologist and an Endochrinologist) a Urologist, a Physiotherapist, and a Dermatologist/Plastic Surgeon, and a Dietician. Other specialists are called upon when needed within hours.</p>
 						</div>
 						<Link to="/booking" className="btn btn-secondary btn-lg shadow">Take A Tour</Link>

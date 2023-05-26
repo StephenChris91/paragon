@@ -26,14 +26,28 @@ const aboutSection = () => {
 						</div>
 						<div className="col-lg-6 mb-30">
 							<div className="heading-bx">
-								<h6 className="title-ext text-secondary">About Us</h6>
-								<h2 className="title">What We Offer</h2>
-								<p>Paragon clinics and Imaging provides you with effective and efficient health care services, using a centrally linked  electronic medical record software that enhances the speed of service delivery and confidentiality.
+								<h6 className="title-ext text-secondary">What We Offer</h6>
+								<h2 className="title">Why choose Paragon Clinics and Imaging?</h2>
+								<p>	You are Our priority not only your health condition.
+									This goes a long way to let you know that our well trained care providers take the time to listen to what's crucial to you before making recommendations.
 									<br />
-									The hospital offers comprehensive medical care in the areas of General medicine, General surgery, Industrial health, Obstetrics and Gynaecology, Paediatrics, Orthopedics, radiology, physiotherapy and Aesthetic medics.
 									<br />
-									Paragon clinics and Imaging is a reputable force to reckon amongst HMO’S and corporate organizations in the city of Port Harcourt seeking the best medical provisions for their staff, with all hands on deck round the clock to provide emergency Care, In-patient Care and Out Patient Care.
-								</p>
+
+										You'll get care from trained and licensed experts who work together to create customized treatment plans.
+									<br />
+									<br />
+										We are a reputable force to reckon amongst HMO'S and Corporate Organizations seeking the best health care for their staff.
+									<br />
+									<br />
+										With our Centrally Linked Electro-medical Software, trust us to provide you an efficient, fast and highly confidential health care service.
+									</p>
+								
+
+
+
+
+
+								
 							</div>
 							<div className="row">
 								<div className="col-lg-6 col-sm-6 mb-30 mb-sm-20">

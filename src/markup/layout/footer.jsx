@@ -13,6 +13,7 @@ import facebook from '../../images/social/facebook.png';
 import twitter from '../../images/social/twitter.png';
 import instagram from '../../images/social/instagram.png';
 import linkedin from '../../images/social/linkedin.png';
+import PartnersLogos from '../elements/PartnersLogos';
 
 const FooterSection = () => {
 	return (
@@ -60,10 +61,10 @@ const FooterSection = () => {
 									<ul>
 										<li><Link to="/"><span>Dental Care</span></Link></li>
 										<li><Link to="/"><span>Cardiac Clinic</span></Link></li>
-										<li><Link to="/"><span>Massege Therapy</span></Link></li>
+										<li><Link to="/"><span>Massage Therapy</span></Link></li>
 										<li><Link to="/"><span>Cardiology</span></Link></li>
 										<li><Link to="/"><span>Precise Diagnosis</span></Link></li>
-										<li><Link to="/"><span>Abmbulance Services</span></Link></li>
+										<li><Link to="/"><span>Ambulance Services</span></Link></li>
 									</ul>
 								</div>
 							</div>
@@ -95,6 +96,7 @@ const FooterSection = () => {
 						<div className="row">
 							<div className="col-12 text-center">
 								<p className="copyright-text">Copyright © 2023 Design & Developed by <a href="#" rel="noreferrer" target="_blank" className="text-secondary">Stephen Chris Codes</a></p>
+								<PartnersLogos />
 							</div>
 						</div>
 					</div>
