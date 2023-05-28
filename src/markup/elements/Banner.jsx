@@ -33,12 +33,6 @@ const Slider = ({ images }) => {
                             index === currentSlide ? "slide active" : "slide inactive"
                         }
                     >
-
-                        <div className="slide-text">
-                            <h1>Paragon Imaging &amp; Clinics</h1>
-                            <p>Quality Care... Quality Caring</p>
-                        </div>
-
                         <img src={image} alt={`slide-${index}`} />
                     </div>
                 ))}

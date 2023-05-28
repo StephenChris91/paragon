@@ -1,20 +1,21 @@
 import { useMemo } from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 
-const mapContainerStyle = {
-    width: '100vw',
-    height: '100vh',
-}
-const center = {
-    lat: 4.824167,
-    lng: 7.033611,
-}
+
 
 export default function ContactMap() {
-    const center = useMemo(() => ({ lat: 4.770784, lng: 7.014776 }), []);
+    const mapContainerStyle = {
+        width: '100vw',
+        height: '100vh',
+    }
+    const center = {
+        lat: 4.770784,
+        lng: 7.014776,
+    }
+    const centerMap = useMemo(() => (center), []);
     const { isLoaded, loadError } = useLoadScript({
         // Uncomment the line below and add your API keys
-        googleMapsApiKey: "AIzaSyBKIxPK1moAOrY2NlRZKkEdZEMT1lhAbtY",
+        googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
     });
 
     if (loadError) return "Error loading Maps";
@@ -27,7 +28,7 @@ export default function ContactMap() {
             mapContainerStyle={mapContainerStyle}
             zoom={10}
             center={center}>
-            <Marker position={center} />
+            <Marker position={centerMap} />
         </GoogleMap>
     )
 }
