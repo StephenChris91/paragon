@@ -34,7 +34,7 @@ const FooterSection = () => {
 											<div className="icon"><i className="fas fa-phone-alt"></i></div>
 											<div className="contact-number">
 												<span>Contact Us</span>
-												<h4 className="number">(+234)8086666361</h4>
+												<a href='tel:+2348086666361'><h4 className="number">(+234)8086666361</h4></a>
 											</div>
 										</div>
 									</div>
@@ -44,11 +44,7 @@ const FooterSection = () => {
 								<div className="widget footer_widget ml-50">
 									<h3 className="footer-title">Quick Links</h3>
 									<ul>
-										<li><Link to="/about-us"><span>About Us</span></Link></li>
-										<li><Link to="/services"><span>Services</span></Link></li>
-										<li><Link to="/booking"><span>Booking</span></Link></li>
-										<li><Link to="/about-us"><span>Our Team</span></Link></li>
-										<li><Link to="/"><span>Book An Appointment</span></Link></li>
+										<li><Link to="/booking"><span>Book An Appointment</span></Link></li>
 										<li><Link to="/"><span>Online Payment</span></Link></li>
 										<li><Link to="/"><span>E- Care</span></Link></li>
 										<li><Link to="/"><span>Talk To A Doctor</span></Link></li>
@@ -59,12 +55,12 @@ const FooterSection = () => {
 								<div className="widget footer_widget">
 									<h3 className="footer-title">Our Service</h3>
 									<ul>
-										<li><Link to="/"><span>Dental Care</span></Link></li>
-										<li><Link to="/"><span>Cardiac Clinic</span></Link></li>
-										<li><Link to="/"><span>Massage Therapy</span></Link></li>
-										<li><Link to="/"><span>Cardiology</span></Link></li>
-										<li><Link to="/"><span>Precise Diagnosis</span></Link></li>
-										<li><Link to="/"><span>Ambulance Services</span></Link></li>
+										<li><Link to="/services"><span>General Medicine</span></Link></li>
+										<li><Link to="/services"><span>General Surgery</span></Link></li>
+										<li><Link to="/services"><span>Paediatrics</span></Link></li>
+										<li><Link to="/services"><span>Obstetrics</span></Link></li>
+										<li><Link to="/services"><span>Industrial Medicine</span></Link></li>
+										<li><Link to="/services"><span>Radiology</span></Link></li>
 									</ul>
 								</div>
 							</div>

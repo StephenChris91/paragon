@@ -118,7 +118,8 @@ const ContactUs = () => {
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-title">Contact Number</h5>
-										<p>(+234)8086666361</p>
+										<p className='mb-20'>(+234)8086666361</p>
+										<li className="btn-area mt-20"><Link to="tel:+2348086666361" className="btn btn-primary shadow">Call Us Now</Link></li>
 									</div>
 								</div>
 							</div>
@@ -129,8 +130,8 @@ const ContactUs = () => {
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-title">Email Address</h5>
-										<p>paragonclinics@gmail.com</p>
-										<p>info@paragonclinicsandimaging.com</p>
+										<p className='mb-30'>info@paragonclinicsandimaging.com</p>
+										<li className="btn-area mt-20"><Link to="mailto:paragonclinics@gmail.com" className="btn btn-primary shadow">Email Us Now</Link></li>
 									</div>
 								</div>
 							</div>
@@ -141,7 +142,7 @@ const ContactUs = () => {
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-title">Address</h5>
-										<p>96 Stadium Road Port Harcourt. Nigeria.</p>
+										<p className='mt-30'>96 Stadium Road Port Harcourt. Nigeria.</p>
 									</div>
 								</div>
 							</div>
