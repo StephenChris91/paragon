@@ -64,14 +64,6 @@ const FooterSection = () => {
 							</div>
 							<div className="col-xl-3 col-lg-3 col-md-6">
 								<div className="widget widget_form">
-									<h3 className="footer-title">Subcribe</h3>
-									<form className="subscribe-form subscription-form mb-30">
-										<div className="ajax-message"></div>
-										<div className="input-group">
-											<input name="email" required="required" className="form-control" placeholder="Email Address" type="email" />
-										</div>
-										<button name="submit" value="Submit" type="submit" className="btn btn-secondary shadow w-100">Subscribe Now</button>
-									</form>
 									<div className="footer-social-link">
 										<ul>
 											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={facebook} alt="" /></a></li>

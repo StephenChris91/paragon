@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -11,10 +10,6 @@ import pic1 from "../../images/about/pic-1.jpg";
 import icon1 from "../../images/icon/icon1.png";
 import icon2 from "../../images/icon/icon2.png";
 import icon3 from "../../images/icon/icon3.png";
-import animateWave from "../../images/shap/wave-blue.png";
-import animate2 from "../../images/shap/circle-dots.png";
-import animateRotate from "../../images/shap/plus-blue.png";
-import ContactMap from '../elements/ContactMap';
 
 
 const ContactUs = () => {
@@ -26,11 +21,11 @@ const ContactUs = () => {
 	
 	  const handleDirectionsRequest = () => {
 		const currentLocation = navigator.geolocation;
-	
+		
 		if (currentLocation) {
 		  currentLocation.getCurrentPosition((position) => {
 			const { latitude, longitude } = position.coords;
-			const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${center.lat},${center.lng}`;
+			const mapsUrl = `https://www.google.com/maps/dir/?api=${process.env.REACT_APP_GOOGLE_API_KEY}&origin=${latitude},${longitude}&destination=${center.lat},${center.lng}`;
 			window.location.href = mapsUrl;
 		  });
 		}
@@ -38,10 +33,8 @@ const ContactUs = () => {
 
 	return (
 		<>
-
 			<Header />
 			<div className="page-content bg-white">
-
 				<div className="banner-wraper">
 					<div className="page-banner banner-lg contact-banner" style={{ backgroundImage: "url(" + bnrImg1 + ")" }}>
 						<div className="container">

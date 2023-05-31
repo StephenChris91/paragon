@@ -108,7 +108,7 @@ footer{
 		li{
 			display:inline-block;
 		    flex: 50%;	
-		    padding: 0 15px 15px 0px;	
+		    padding: 0 15px 15px 0px;
 		}
 	}
 	.footer-top{
@@ -157,7 +157,7 @@ footer{
 			padding: 6px 0;
 			display: block;
 			line-height: 25px;
-			color: $body-color;
+			color: $primary;
 			position: relative;
 			&:hover{
 				color: $primary;				

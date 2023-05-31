@@ -62,6 +62,12 @@ const Team = () => {
 							<div className="container">
 								<div className="page-banner-entry text-center">
 									<h1>Our Team</h1>
+									<h5>OUR DOCTORS</h5>
+										<p>The Medical staff consists of licensed experts; an Obstetrician/Gynecologist, a Paediatrician, an Orthopaedic/Traumatology Surgeon, a General Surgeon, a Radiologist, three Physicians (a Nephrologist, a Cardiologist and an Endocrinologist) a Urologist, a Physiotherapist, and a Dermatologist/Plastic Surgeon, and a Dietician.</p>
+
+										<h5>FOR THE CORPORATE WORLD</h5>
+										<p>Paragon Clinics & Imaging offers Occupational Health Medicine in partnership with Rampeck Health and Ecosystems Ltd and is accredited to conduct Fitness to Work Medical Examinations, Audiometry, Lung Function Test (Vitalography) and Ergonomics.</p>
+
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
 											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
