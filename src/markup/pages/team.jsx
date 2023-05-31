@@ -7,12 +7,6 @@ import Footer from "../layout/footer";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
-import trangleOrange from "../../images/shap/trangle-orange.png";
-import squareDotsOrange from "../../images/shap/square-dots-orange.png";
-import lineCircleBlue from "../../images/shap/line-circle-blue.png";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/circle-dots.png";
 import teamMember1 from "../../images/team/member1.jpg";
 import teamMember2 from "../../images/team/member2.jpg";
 import teamMember3 from "../../images/team/member3.jpg";
@@ -54,9 +48,8 @@ const content = [
 	},
 ]
 
-class Team extends Component{
+const Team = () => {
 	
-	render(){
 		return (
 			<>
 				
@@ -77,9 +70,6 @@ class Team extends Component{
 									</nav>
 								</div>
 							</div>
-							<img className="pt-img1 animate-wave" src={waveBlue} alt=""/>
-							<img className="pt-img2 animate2" src={circleDots} alt=""/>
-							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/>
 						</div>
 					</div>
 					
@@ -108,11 +98,6 @@ class Team extends Component{
 								))}
 							</div>
 						</div>
-						<img className="pt-img1 animate1" src={trangleOrange} alt=""/>
-						<img className="pt-img2 animate2" src={squareDotsOrange} alt=""/>
-						<img className="pt-img3 animate-rotate" src={lineCircleBlue} alt=""/>
-						<img className="pt-img4 animate-wave" src={waveBlue} alt=""/>
-						<img className="pt-img5 animate-wave" src={plusBlue} alt=""/>
 					</section>
 					
 				</div>
@@ -121,7 +106,7 @@ class Team extends Component{
 				
 			</>
 		);
-	}
+	
 }
 
 export default Team;

@@ -3,7 +3,7 @@ $enable-deprecation-messages: false;
 $ignore-warning             : true;
 
 // stylelint-disable-next-line scss/dollar-variable-default
-$primary   : #ad2b2e;
+$primary   : #ad2b2e !default;
 $secondary : #e03639 !default;
 $success   : #209f84 !default;
 $info      : #2754e6 !default;
@@ -20,7 +20,7 @@ $body-color: #444;
 
 // Typography
 $font-family-base : 'Inter', sans-serif;
-$font-family-title :'Open sans', sans-serif;
+$font-family-title :'Inter', sans-serif;
 $headings-font-weight   : 500;
 
 $font-size-base         : 1rem !default;

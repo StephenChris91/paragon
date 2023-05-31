@@ -444,7 +444,7 @@
 		.ttr-title{
 			font-size:16px;
 			font-weight:600;
-			color:$primary;
+			color:$primary !important;
 			margin: 0;
 		}
 	}
@@ -528,7 +528,7 @@
 	
 	.ttr-title{
 		margin-bottom: 12px;
-		color: $primary;
+		color: red !important;
 	}
 	.counter{
 		font-size: 60px;
@@ -540,7 +540,7 @@
 	}
 	.ttr-title,
 	.counter{
-		color: $primary;
+		color: $primary !important;
 	}
 	p{
 		@include transitionMedium;		
@@ -623,7 +623,7 @@
 	}
 	.icon-content{
 		.ttr-title{
-			color:$primary;
+			color:$primary !important;
 			margin: 0 0 12px;
 		}
 		p{

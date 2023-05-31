@@ -56,7 +56,7 @@ const Services = () => {
 								<img src={surgery} alt="" className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">General Surgery</h3>
-										<p>We have team of consultants and experienced doctors to carry out a wide range of surgical operations</p>
+										<p>We have the imaging technologies and expertise to diagnose and treat a wide range of diseases.</p>
 									</div>
 								</div>
 							</div>
@@ -96,7 +96,7 @@ const Services = () => {
 
 									<div className="icon-content">
 										<h3 className="ttr-title">Industrial Medicine</h3>
-										<p>We have the imaging technologies and expertise to diagnose and treat a wide range of diseases.</p>
+										<p>We have team of consultants and experienced doctors to carry out a wide range of surgical operations</p>
 									</div>
 								</div>
 							</div>
