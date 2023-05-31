@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
 
+//icons
+import { FaCheck } from 'react-icons/fa';
+
 // Import Images
 import aboutThumb1 from '../../images/others/stetoscope1.jpg';
 import aboutThumb2 from '../../images/others/doc1.jpg';
 import aboutThumb3 from '../../images/others/surgery1.jpg';
-import ptImg1 from '../../images/shap/wave-orange.png';
-import ptImg2 from '../../images/shap/circle-small-blue.png';
-import ptImg4 from '../../images/shap/square-dots-orange.png';
-import ptImg5 from '../../images/shap/square-blue.png';
 import icon1 from '../../images/icon1.png'
 import icon2 from '../../images/icon2.png'
 import icon3 from '../../images/icon3.png'
 import icon4 from '../../images/icon4.png'
+
+
 
 const aboutSection = () => {
 	return (
@@ -30,20 +31,19 @@ const aboutSection = () => {
 						</div>
 						<div className="col-lg-6 mb-30">
 							<div className="heading-bx">
-								<h6 className="title-ext text-secondary">What We Offer</h6>
 								<h2 className="title">Why choose Paragon Clinics and Imaging?</h2>
-								<p>	You are Our priority not only your health condition.
+								<p><FaCheck className='mr-10'/> You are Our priority not only your health condition.
 									This goes a long way to let you know that our well trained care providers take the time to listen to what's crucial to you before making recommendations.
 									<br />
 									<br />
 
-										You'll get care from trained and licensed experts who work together to create customized treatment plans.
+									<FaCheck className='mr-10'/> You'll get care from trained and licensed experts who work together to create customized treatment plans.
 									<br />
 									<br />
-										We are a reputable force to reckon amongst HMO'S and Corporate Organizations seeking the best health care for their staff.
+									<FaCheck className='mr-10'/> We are a reputable force to reckon amongst HMO'S and Corporate Organizations seeking the best health care for their staff.
 									<br />
 									<br />
-										With our Centrally Linked Electro-medical Software, trust us to provide you an efficient, fast and highly confidential health care service.
+									<FaCheck className='mr-10'/> With our Centrally Linked Electro-medical Software, trust us to provide you an efficient, fast and highly confidential health care service.
 									</p>
 								
 
@@ -107,11 +107,6 @@ const aboutSection = () => {
 						</div>
 					</div>
 				</div>
-				<img className="pt-img1 animate-wave" src={ptImg1} alt="" />
-				<img className="pt-img2 animate2" src={ptImg2} alt="" />
-				<img className="pt-img3 animate-rotate" src={ptImg5} alt="" />
-				<img className="pt-img4 animate-wave" src={ptImg4} alt="" />
-				<img className="pt-img5 animate2" src={ptImg5} alt="" />
 			</section>
 
 		</>

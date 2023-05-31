@@ -7,7 +7,7 @@ section{
 }
 .heading-bx{
 	margin-bottom:45px;
-	
+	color: $dark;
 	.title-ext{
 		font-weight: 700;
 		display: inline-block;
@@ -24,6 +24,7 @@ section{
 	}
 	h2.title{
 		font-size:45px;
+		color: $primary;
 		@include respond('laptop-small'){
 			font-size: 36px;		
 		}
@@ -69,6 +70,7 @@ section{
 		}
 		.title{
 			margin-bottom:0;
+			color: $primary;
 			@include respond('phone-land'){
 				margin-bottom:10px;
 			}

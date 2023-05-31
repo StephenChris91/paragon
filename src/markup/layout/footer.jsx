@@ -25,11 +25,9 @@ const FooterSection = () => {
 						<div className="row">
 							<div className="col-xl-3 col-lg-3 col-md-6">
 								<div className="widget widget_info">
-									<div className="footer-logo">
-										<Link to="/"><img src={Logo} alt="" /></Link>
-									</div>
+									
 									<div className="ft-contact">
-										<p>Paragon Clinics & Imaging also offers Occupational Health Medicine in partnership with Rampeck Health and Ecosystems Ltd and is accredited to conduct Fitness to Work Medical Examinations, Audiometry, Lung Function Test (Vitalography) and Ergonomics.</p>
+										
 										<div className="contact-bx">
 											<div className="icon"><i className="fas fa-phone-alt"></i></div>
 											<div className="contact-number">
@@ -91,16 +89,12 @@ const FooterSection = () => {
 					<div className="footer-bottom">
 						<div className="row">
 							<div className="col-12 text-center">
-								<p className="copyright-text">Copyright © 2023 Design & Developed by <a href="#" rel="noreferrer" target="_blank" className="text-secondary">Stephen Chris Codes</a></p>
 								<PartnersLogos />
+								<p className="copyright-text">Copyright © 2023 Design & Developed by <a href="#" rel="noreferrer" target="_blank" className="text-secondary">Stephen Chris Codes</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<img className="pt-img1 animate-wave" src={ptImg1} alt="" />
-				<img className="pt-img2 animate1" src={ptImg2} alt="" />
-				<img className="pt-img3 animate-rotate" src={ptImg3} alt="" />
-				<img className="pt-img4 animate-wave" src={ptImg4} alt="" />
 			</footer>
 
 		</>

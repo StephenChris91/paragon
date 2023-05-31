@@ -4,24 +4,11 @@ import Sticky from 'react-stickynode';
 
 // Images
 import logo from '../../images/others/logo.png';
-import logoWhite from '../../images/logo-white.png';
 
 const Header = () => {
 
 	useEffect(() => {
-		// Search Form Popup
-		let searchBtn = document.getElementById("quikSearchBtn")
-		let searchForm = document.querySelector(".nav-search-bar")
-		let closeBtn = document.getElementById("searchRemove")
-
-		searchBtn.addEventListener('click', function () {
-			searchForm.classList.add("show")
-		})
-
-		closeBtn.addEventListener('click', function () {
-			searchForm.classList.remove("show")
-		})
-
+		
 		// Mobile Menu Open
 		let menuIcon = document.querySelector(".menuicon")
 		let menuLinks = document.querySelector(".menu-links")
@@ -78,13 +65,12 @@ const Header = () => {
 							</div>
 							<div className="menu-links navbar-collapse collapse justify-content-end" id="menuDropdown">
 								<div className="menu-logo">
-									<Link to="/"><img src={logoWhite} alt="" /></Link>
+									<Link to="/"><img src={logo} alt="" /></Link>
 								</div>
 								<ul className="nav navbar-nav">
 									<li className="active"><Link to="/">Home<i className="fas fa-plus"></i></Link></li>
 									<li><Link to="/about-us">About Us<i className="fas fa-plus"></i></Link></li>
 									<li><Link to="/services">Services <i className="fas fa-plus"></i></Link></li>
-									<li><Link to="/contact-us">Contact Us  <i className="fas fa-plus"></i></Link></li>
 								</ul>
 								<ul className="social-media">
 									<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/" className="btn btn-primary"><i className="fab fa-facebook-f"></i></a></li>
@@ -99,13 +85,6 @@ const Header = () => {
 						</div>
 					</div>
 				</Sticky>
-				<div className="nav-search-bar">
-					<form>
-						<input type="text" className="form-control" placeholder="Type to search" />
-						<span><i className="ti-search"></i></span>
-					</form>
-					<span id="searchRemove"><i className="ti-close"></i></span>
-				</div>
 			</header>
 
 		</>

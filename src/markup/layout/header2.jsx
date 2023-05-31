@@ -9,19 +9,6 @@ import logoWhite from '../../images/logo-white.png';
 const Header = () => {
 
 	useEffect(() => {
-		// Search Form Popup
-		var searchBtn = document.getElementById("quikSearchBtn")
-        var searchForm = document.querySelector(".nav-search-bar")
-        var closeBtn = document.getElementById("searchRemove")
-		
-        searchBtn.addEventListener('click',function(){
-            searchForm.classList.add("show")
-        })
-
-        closeBtn.addEventListener('click',function(){
-            searchForm.classList.remove("show")
-        })
-		
 		// Mobile Menu Open
 		var menuIcon = document.querySelector(".menuicon")
 		var menuLinks = document.querySelector(".menu-links")
@@ -90,7 +77,6 @@ const Header = () => {
 										<li>
 											<Link to="/services">Services <i className="fas fa-plus"></i></Link>
 										</li>
-										<li><Link to="/contact-us">Contact Us</Link></li>
 									</ul>
 									<ul className="social-media">
 										<li><a rel="noreferrer" target="_blank" href="https://www.facebook.com/" className="btn btn-primary"><i className="fab fa-facebook-f"></i></a></li>
@@ -105,13 +91,6 @@ const Header = () => {
 							</div>
 						</div>
 					</Sticky>
-					<div className="nav-search-bar">
-						<form>
-							<input type="text" className="form-control" placeholder="Type to search"/>
-							<span><i className="ti-search"></i></span>
-						</form>
-						<span id="searchRemove"><i className="ti-close"></i></span>
-					</div>
 				</header>
 				
 			</>

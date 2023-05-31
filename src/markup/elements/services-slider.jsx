@@ -2,10 +2,6 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 // Import Images
-import lineCircleBlue from "../../images/shap/line-circle-blue.png";
-import squareDotsOrange from "../../images/shap/square-dots-orange.png";
-import waveBlue from "../../images/shap/wave-blue.png";
-import squareRotate from "../../images/shap/square-rotate.png";
 import physio from '../../images/services/physio.jpg';
 import surgery from '../../images/services/surgery.jpg';
 import obstetrics from '../../images/services/obstetrics.jpg';
@@ -17,7 +13,9 @@ const ServicesSliderSection = () => {
 
 
 	const settings = {
-		dots: false,
+		dots: true,
+		arrow: true,
+		autoplay: true, 
 		infinite: true,
 		speed: 1000,
 		slidesToShow: 3,
@@ -45,9 +43,7 @@ const ServicesSliderSection = () => {
 				<div className="row align-items-center">
 					<div className="col-xl-4 col-lg-7 mb-30">
 						<div className="heading-bx">
-							<h6 className="title-ext text-secondary">Services</h6>
 							<h2 className="title">We cover a wide range of medical Services</h2>
-							<p>The Medical staff currently consists of reputable Specialists including an Obstetrician/Gynecologist, a Paediatrician, an Orthopaedic/Traumatology Surgeon, a General Surgeon, a Radiologist, three Physicians (a Nephrologist, a Cardiologist and an Endochrinologist) a Urologist, a Physiotherapist, and a Dermatologist/Plastic Surgeon, and a Dietician. Other specialists are called upon when needed within hours.</p>
 						</div>
 						<Link to="/booking" className="btn btn-secondary btn-lg shadow">Take A Tour</Link>
 					</div>
@@ -139,10 +135,7 @@ const ServicesSliderSection = () => {
 						</Slider>
 					</div>
 				</div>
-				<img className="pt-img1 animate-rotate" src={lineCircleBlue} alt="" />
-				<img className="pt-img2 animate2" src={squareDotsOrange} alt="" />
-				<img className="pt-img3 animate-wave" src={waveBlue} alt="" />
-				<img className="pt-img4 animate1" src={squareRotate} alt="" />
+				
 			</section>
 
 		</>

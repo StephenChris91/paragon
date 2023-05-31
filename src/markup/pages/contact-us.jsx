@@ -19,6 +19,23 @@ import ContactMap from '../elements/ContactMap';
 
 const ContactUs = () => {
 
+	const center = {
+		lat: 4.770784,
+		lng: 7.014776,
+	  };
+	
+	  const handleDirectionsRequest = () => {
+		const currentLocation = navigator.geolocation;
+	
+		if (currentLocation) {
+		  currentLocation.getCurrentPosition((position) => {
+			const { latitude, longitude } = position.coords;
+			const mapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${center.lat},${center.lng}`;
+			window.location.href = mapsUrl;
+		  });
+		}
+	  };
+
 	return (
 		<>
 
@@ -30,20 +47,10 @@ const ContactUs = () => {
 						<div className="container">
 							<div className="page-banner-entry text-center">
 								<h1>Contact Us</h1>
-								<nav aria-label="breadcrumb" className="breadcrumb-row">
-									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Contact Us</li>
-									</ul>
-								</nav>
 							</div>
 						</div>
-						<img className="pt-img1 animate-wave" src={animateWave} alt="" />
-						<img className="pt-img2 animate2" src={animate2} alt="" />
-						<img className="pt-img3 animate-rotate" src={animateRotate} alt="" />
 					</div>
 				</div>
-				<ContactMap />
 
 				<section className="">
 					<div className="container">
@@ -64,7 +71,7 @@ const ContactUs = () => {
 											</div>
 											<div className="form-group col-md-12">
 												<select className="form-select form-control">
-													<option selected>Selecty Department</option>
+													<option selected>Select Department</option>
 													<option value="1">Consultation</option>
 													<option value="2">Enquiry</option>
 													<option value="3">Payments</option>
@@ -143,6 +150,7 @@ const ContactUs = () => {
 									<div className="icon-content">
 										<h5 className="ttr-title">Address</h5>
 										<p className='mt-30'>96 Stadium Road Port Harcourt. Nigeria.</p>
+										<button className='btn btn-primary' onClick={handleDirectionsRequest}>Get Directions</button>
 									</div>
 								</div>
 							</div>

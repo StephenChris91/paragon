@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 // Import Images
 import teamMember1 from '../../images/team/doctor1.jpg';
 import teamMember2 from '../../images/team/doctor3.jpg';
 import teamMember3 from '../../images/team/doctor7.jpg';
 import teamMember4 from '../../images/team/doctor8.jpg';
-import ptImg1 from '../../images/shap/trangle-orange.png';
-import ptImg2 from '../../images/shap/square-dots-orange.png';
-import ptImg3 from '../../images/shap/line-circle-blue.png';
-import ptImg4 from '../../images/shap/wave-blue.png';
-import ptImg5 from '../../images/shap/circle-dots.png';
+
 
 const TeamSection = () => {
 	const doctors = [
@@ -44,7 +40,6 @@ const TeamSection = () => {
 			<section className="section-area section-sp3 team-wraper">
 				<div className="container">
 					<div className="heading-bx text-center">
-						<h6 className="title-ext text-secondary">Our Doctors</h6>
 						<h2 className="title">Meet The Team</h2>
 					</div>
 					<div className="row justify-content-center">
@@ -65,11 +60,6 @@ const TeamSection = () => {
 						))}
 					</div>
 				</div>
-				<img className="pt-img1 animate1" src={ptImg1} alt="" />
-				<img className="pt-img2 animate2" src={ptImg2} alt="" />
-				<img className="pt-img3 animate-rotate" src={ptImg3} alt="" />
-				<img className="pt-img4 animate-wave" src={ptImg4} alt="" />
-				<img className="pt-img5 animate-wave" src={ptImg5} alt="" />
 			</section>
 
 		</>
