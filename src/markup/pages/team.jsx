@@ -62,11 +62,6 @@ const Team = () => {
 							<div className="container">
 								<div className="page-banner-entry text-center">
 									<h1>Our Team</h1>
-									<h5>OUR DOCTORS</h5>
-										<p>The Medical staff consists of licensed experts; an Obstetrician/Gynecologist, a Paediatrician, an Orthopaedic/Traumatology Surgeon, a General Surgeon, a Radiologist, three Physicians (a Nephrologist, a Cardiologist and an Endocrinologist) a Urologist, a Physiotherapist, and a Dermatologist/Plastic Surgeon, and a Dietician.</p>
-
-										<h5>FOR THE CORPORATE WORLD</h5>
-										<p>Paragon Clinics & Imaging offers Occupational Health Medicine in partnership with Rampeck Health and Ecosystems Ltd and is accredited to conduct Fitness to Work Medical Examinations, Audiometry, Lung Function Test (Vitalography) and Ergonomics.</p>
 
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">

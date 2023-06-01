@@ -2,12 +2,15 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 // Import Images
-import physio from '../../images/services/physio.jpg';
-import surgery from '../../images/services/surgery.jpg';
-import obstetrics from '../../images/services/obstetrics.jpg';
-import radiology from '../../images/services/radiology.jpg';
-import industrial from '../../images/services/industrial.jpg';
-import paediatrics from '../../images/services/paediatrics.jpg';
+import physio from '../../images/bannerSlider/physio.jpeg';
+import surgery from '../../images/bannerSlider/surgery.jpeg';
+import obstetrics from '../../images/bannerSlider/obstetrics.jpeg';
+import radiology from '../../images/bannerSlider/radiology.jpeg';
+import industrial from '../../images/bannerSlider/industrial.jpeg';
+import paediatrics from '../../images/bannerSlider/paediatrics.jpeg';
+import general from '../../images/bannerSlider/general.jpeg';
+import orthopedics from '../../images/bannerSlider/orthopedics.jpeg';
+import aesthetics from '../../images/bannerSlider/aesthetics.jpeg';
 
 const ServicesSliderSection = () => {
 
@@ -51,7 +54,7 @@ const ServicesSliderSection = () => {
 						<Slider {...settings} className="service-slide slick-arrow-none">
 							<div className="slider-item">
 								<div className="feature-container feature-bx2 feature1">
-									<img src={physio} alt='' className='mb-10'/>
+									<img src={general} alt='' className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">General Medicine</h3>
 										<p>We have qualified experts to offer exciting occupational safety training sessions to reduce the risk of work hazards and boost work efficiency.</p>
@@ -89,8 +92,8 @@ const ServicesSliderSection = () => {
 								<div className="feature-container feature-bx2 feature1">
 										<img src={obstetrics} alt="" className='mb-10'/>
 									<div className="icon-content">
-										<h3 className="ttr-title">Obstetrics</h3>
-										<p>We have the imaging technologies and expertise to diagnose and treat a wide range of diseases.</p>
+										<h3 className="ttr-title">Obstetrics & Gynaecology</h3>
+										<p>Our care team render topnotch services to pregnant women and gives priority to women’s sexual and reproductive health.</p>
 									</div>
 								</div>
 							</div>
@@ -98,8 +101,8 @@ const ServicesSliderSection = () => {
 								<div className="feature-container feature-bx2 feature1">
 										<img src={industrial} alt="" className='mb-10'/>
 									<div className="icon-content">
-										<h3 className="ttr-title">Industrial</h3>
-										<p>We have the imaging technologies and expertise to diagnose and treat a wide range of diseases.</p>
+										<h3 className="ttr-title">Industrial Health</h3>
+										<p>We have qualified experts to offer exciting occupational safety training sessions to reduce the risk of work hazards and boost work efficiency.</p>
 									</div>
 								</div>
 							</div>
@@ -114,21 +117,19 @@ const ServicesSliderSection = () => {
 							</div>
 							<div className="slider-item">
 								<div className="feature-container feature-bx2 feature1">
-										<img src={paediatrics} alt="" />
+										<img src={orthopedics} alt="" />
 									<div className="icon-content">
-										<h3 className="ttr-title">Orthopaedic Medicine</h3>
+										<h3 className="ttr-title">Orthopedic</h3>
 										<p>We can help you get relief from pain and mobility problems caused by Musculoskeletal issues.</p>
 									</div>
 								</div>
 							</div>
 							<div className="slider-item">
 								<div className="feature-container feature-bx2 feature2">
-									<div className="feature-box-xl mb-20">
-										<img src="../../images/services/surgery.jpg" alt="" />
-									</div>
+										<img src={aesthetics} alt="" />
 									<div className="icon-content">
 										<h3 className="ttr-title">Aesthetic Medicine</h3>
-										<p>With our team of licensed aestheticians, age is just but a number. We are committed in improving the cosmetic appearance of our patients.</p>
+										<p>With our team of licensed aestheticians, age is just a number. We are committed in improving the cosmetic appearance of our patients.</p>
 									</div>
 								</div>
 							</div>
