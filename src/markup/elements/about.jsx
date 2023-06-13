@@ -32,18 +32,18 @@ const aboutSection = () => {
 						<div className="col-lg-6 mb-30">
 							<div className="heading-bx">
 								<h2 className="title">Why choose Paragon Clinics and Imaging?</h2>
-								<p><FaCheck className='mr-10'/> You are Our priority not only your health condition.
-									This goes a long way to let you know that our well trained care providers take the time to listen to what's crucial to you before making recommendations.
+								<p><FaCheck className='mr-10'/> We are centrally located in the Port Harcourt metropolis with an excellent road network, within easy access from most neighborhoods.
 									<br />
 									<br />
 
-									<FaCheck className='mr-10'/> You'll get care from trained and licensed experts who work together to create customized treatment plans.
+									<FaCheck className='mr-10'/> We are a reputable force to reckon with amongst HMO&#39;s and Corporate
+									Organizations seeking the best health care for their staff.
 									<br />
 									<br />
-									<FaCheck className='mr-10'/> We are a reputable force to reckon amongst HMO'S and Corporate Organizations seeking the best health care for their staff.
+									<FaCheck className='mr-10'/> Our care providers are trained and licensed experts who take the time to listen to what is crucial to you before making recommendations.
 									<br />
 									<br />
-									<FaCheck className='mr-10'/> With our Centrally Linked Electro-medical Software, trust us to provide you an efficient, fast and highly confidential health care service.
+									<FaCheck className='mr-10'/> Our centrally linked Electronic Medical Records Software, enables us provide you an efficient, fast and highly confidential health care service.
 									</p>
 								
 

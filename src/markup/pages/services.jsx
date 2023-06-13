@@ -51,7 +51,7 @@ const Services = () => {
 								<img src={general} alt='' className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">General Medicine</h3>
-										<p>We have qualified experts to offer exciting occupational safety training sessions to reduce the risk of work hazards and boost work efficiency.</p>
+										<p>Our qualified experts treat and manage a wide range of long-term and short-term illnesses.</p>
 									</div>
 								</div>
 							</div>
@@ -60,7 +60,7 @@ const Services = () => {
 								<img src={surgery} alt="" className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">General Surgery</h3>
-										<p>We have team of consultants and experienced doctors to carry out a wide range of surgical operations</p>
+										<p>We have team of Surgeons and experienced Anesthesiologists who carry out a wide range of surgical operations.</p>
 									</div>
 								</div>
 							</div>
@@ -87,7 +87,7 @@ const Services = () => {
 								<img src={obstetrics} alt="" className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">Obstetrics & Gynaecology</h3>
-										<p>Our care team render topnotch services to pregnant women and gives priority to women’s sexual and reproductive health.</p>
+										<p>Our care team renders topnotch services to pregnant women and gives priority to women’s sexual and reproductive health.</p>
 									</div>
 								</div>
 							</div>
@@ -96,7 +96,7 @@ const Services = () => {
 								<img src={industrial} alt="" className='mb-10'/>
 									<div className="icon-content">
 										<h3 className="ttr-title">Industrial Health</h3>
-										<p>We have qualified experts to offer exciting occupational safety training sessions to reduce the risk of work hazards and boost work efficiency.</p>
+										<p>We determine if members of your workforce are mentally and physically fit for their role by carrying out Fitness for Work medical assessment.</p>
 									</div>
 								</div>
 							</div>
@@ -114,7 +114,7 @@ const Services = () => {
 								<img src={orthopedics} alt="" />
 									<div className="icon-content">
 										<h3 className="ttr-title">Orthopedic</h3>
-										<p>We can help you get relief from pain and mobility problems caused by Musculoskeletal issues.</p>
+										<p>We help you get relief from pain and mobility problems caused by musculoskeletal issues.</p>
 									</div>
 								</div>
 							</div>
