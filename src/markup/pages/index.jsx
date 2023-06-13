@@ -22,9 +22,7 @@ import WhatsappWidget from '../elements/WhatsappWidget';
 
 const Index = () => {
 
-	const images = [
-		slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8
-	];
+	const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8];
 
 	return (
 		<>

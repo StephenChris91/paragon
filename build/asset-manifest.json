@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f4e00e10.chunk.css",
-    "main.js": "/static/js/main.621d77ea.chunk.js",
-    "main.js.map": "/static/js/main.621d77ea.chunk.js.map",
+    "main.js": "/static/js/main.f7378a95.chunk.js",
+    "main.js.map": "/static/js/main.f7378a95.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9cc50c5c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9cc50c5c.js.map",
     "static/css/2.e99951de.chunk.css": "/static/css/2.e99951de.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.e99951de.chunk.css.map": "/static/css/2.e99951de.chunk.css.map",
     "static/css/main.f4e00e10.chunk.css.map": "/static/css/main.f4e00e10.chunk.css.map",
     "static/js/2.b6e78a47.chunk.js.LICENSE.txt": "/static/js/2.b6e78a47.chunk.js.LICENSE.txt",
+    "static/media/aesthetics.25a1abbc.jpeg": "/static/media/aesthetics.25a1abbc.jpeg",
     "static/media/doc1.5ccc8880.jpg": "/static/media/doc1.5ccc8880.jpg",
     "static/media/doctor1.32bcff6c.jpg": "/static/media/doctor1.32bcff6c.jpg",
     "static/media/doctor3.6d0f81de.jpg": "/static/media/doctor3.6d0f81de.jpg",
@@ -22,12 +23,13 @@
     "static/media/App.scss": "/static/media/shape1.1112f1ac.png",
     "static/media/all.min.css": "/static/media/fa-solid-900.fde69373.ttf",
     "static/media/footer.d025f458.jpg": "/static/media/footer.d025f458.jpg",
+    "static/media/general.5b8ad990.jpeg": "/static/media/general.5b8ad990.jpeg",
     "static/media/icon1.5c170546.png": "/static/media/icon1.5c170546.png",
     "static/media/icon2.50ef2285.png": "/static/media/icon2.50ef2285.png",
     "static/media/icon3.38157d29.png": "/static/media/icon3.38157d29.png",
     "static/media/icon4.4ba271d0.png": "/static/media/icon4.4ba271d0.png",
     "static/media/img1.815eb17a.jpg": "/static/media/img1.815eb17a.jpg",
-    "static/media/industrial.731d4737.jpg": "/static/media/industrial.731d4737.jpg",
+    "static/media/industrial.731d4737.jpeg": "/static/media/industrial.731d4737.jpeg",
     "static/media/line-awesome.min.css": "/static/media/la-solid-900.a8130346.svg",
     "static/media/line-bg2.cfded2fd.png": "/static/media/line-bg2.cfded2fd.png",
     "static/media/logo1.972be8ea.png": "/static/media/logo1.972be8ea.png",
@@ -40,9 +42,10 @@
     "static/media/member4.9045579a.jpg": "/static/media/member4.9045579a.jpg",
     "static/media/member5.24eb1821.jpg": "/static/media/member5.24eb1821.jpg",
     "static/media/member6.be2a77ad.jpg": "/static/media/member6.be2a77ad.jpg",
-    "static/media/obstetrics.55d687b0.jpg": "/static/media/obstetrics.55d687b0.jpg",
-    "static/media/paediatrics.99ea6c00.jpg": "/static/media/paediatrics.99ea6c00.jpg",
-    "static/media/physio.7ab04dd7.jpg": "/static/media/physio.7ab04dd7.jpg",
+    "static/media/obstetrics.55d687b0.jpeg": "/static/media/obstetrics.55d687b0.jpeg",
+    "static/media/orthopedics.1c5e320b.jpeg": "/static/media/orthopedics.1c5e320b.jpeg",
+    "static/media/paediatrics.99ea6c00.jpeg": "/static/media/paediatrics.99ea6c00.jpeg",
+    "static/media/physio.7ab04dd7.jpeg": "/static/media/physio.7ab04dd7.jpeg",
     "static/media/pic-1.ad1ed7ee.jpg": "/static/media/pic-1.ad1ed7ee.jpg",
     "static/media/pic1.1.63c8060e.png": "/static/media/pic1.1.63c8060e.png",
     "static/media/pic1.2.b2ec7174.png": "/static/media/pic1.2.b2ec7174.png",
@@ -69,7 +72,7 @@
     "static/media/pic7.c1733b79.jpg": "/static/media/pic7.c1733b79.jpg",
     "static/media/pic8.a59ea2da.jpg": "/static/media/pic8.a59ea2da.jpg",
     "static/media/pic9.9ca3a042.jpg": "/static/media/pic9.9ca3a042.jpg",
-    "static/media/radiology.358fa2c6.jpg": "/static/media/radiology.358fa2c6.jpg",
+    "static/media/radiology.358fa2c6.jpeg": "/static/media/radiology.358fa2c6.jpeg",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/slide1.d1cf27eb.jpg": "/static/media/slide1.d1cf27eb.jpg",
     "static/media/slide2.8110e802.jpg": "/static/media/slide2.8110e802.jpg",
@@ -80,7 +83,7 @@
     "static/media/slide7.d2e5c9de.jpg": "/static/media/slide7.d2e5c9de.jpg",
     "static/media/slide8.523c0525.jpg": "/static/media/slide8.523c0525.jpg",
     "static/media/stetoscope1.87f69144.jpg": "/static/media/stetoscope1.87f69144.jpg",
-    "static/media/surgery.f5eea241.jpg": "/static/media/surgery.f5eea241.jpg",
+    "static/media/surgery.f5eea241.jpeg": "/static/media/surgery.f5eea241.jpeg",
     "static/media/surgery1.105c4716.jpg": "/static/media/surgery1.105c4716.jpg",
     "static/media/themify-icons.css": "/static/media/themify.f0fc8c79.svg"
   },
@@ -89,6 +92,6 @@
     "static/css/2.e99951de.chunk.css",
     "static/js/2.b6e78a47.chunk.js",
     "static/css/main.f4e00e10.chunk.css",
-    "static/js/main.621d77ea.chunk.js"
+    "static/js/main.f7378a95.chunk.js"
   ]
 }
