@@ -21,6 +21,8 @@ import paediatrics from '../../images/bannerSlider/paediatrics.jpeg';
 import general from '../../images/bannerSlider/general.jpeg';
 import orthopedics from '../../images/bannerSlider/orthopedics.jpeg';
 import aesthetics from '../../images/bannerSlider/aesthetics.jpeg';
+import dietetics from '../../images/bannerSlider/dietetics.jpg';
+import psycho from '../../images/bannerSlider/psycho.jpg';
 
 
 
@@ -124,6 +126,24 @@ const Services = () => {
 									<div className="icon-content">
 										<h3 className="ttr-title">Aesthetic Medicine</h3>
 										<p>With our team of licensed aestheticians, age is just a number. We are committed in improving the cosmetic appearance of our patients.</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-4 col-md-6 mb-30">
+								<div className="feature-container feature-bx2 feature1">
+								<img src={dietetics} alt="" />
+									<div className="icon-content">
+										<h3 className="ttr-title">Dietetics</h3>
+										<p>Our team of dieticians provide suitable and exciting meal and nutrition plans that will prevent, treat diseases, promote and maintain the wellbeing of the body</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-4 col-md-6 mb-30">
+								<div className="feature-container feature-bx2 feature1">
+								<img src={psycho} alt="" />
+									<div className="icon-content">
+										<h3 className="ttr-title">Psychotheraphy</h3>
+										<p>We have licensed mental health professionals who apply variety of treatment plans to help the patient identify and change troubled emotions, thought and behaviors</p>
 									</div>
 								</div>
 							</div>

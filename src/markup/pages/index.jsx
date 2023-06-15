@@ -7,12 +7,12 @@ import Footer from "../layout/footer";
 //images
 import slide1 from '../../images/bannerSlider/slide1.jpg'
 import slide2 from '../../images/bannerSlider/slide2.jpg'
-import slide3 from '../../images/bannerSlider/slide3.jpg'
-import slide4 from '../../images/bannerSlider/slide4.jpg'
-import slide5 from '../../images/bannerSlider/slide5.jpg'
+import slide3 from '../../images/bannerSlider/slide3.png'
+import slide4 from '../../images/bannerSlider/slide4.png'
+import slide5 from '../../images/bannerSlider/slide5.png'
 import slide6 from '../../images/bannerSlider/slide6.jpg'
 import slide7 from '../../images/bannerSlider/slide7.jpg'
-import slide8 from '../../images/bannerSlider/slide8.jpg'
+import slide8 from '../../images/bannerSlider/slide8.png'
 
 // Elements
 import AboutSection from "../elements/about";

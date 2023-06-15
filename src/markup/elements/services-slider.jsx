@@ -133,6 +133,24 @@ const ServicesSliderSection = () => {
 									</div>
 								</div>
 							</div>
+							<div className="slider-item">
+								<div className="feature-container feature-bx2 feature1">
+										<img src={orthopedics} alt="" />
+									<div className="icon-content">
+										<h3 className="ttr-title">Dietetics</h3>
+										<p>Our team of dieticians provide suitable and exciting meal and nutrition plans that will prevent, treat diseases, promote and maintain the wellbeing of the body</p>
+									</div>
+								</div>
+							</div>
+							<div className="slider-item">
+								<div className="feature-container feature-bx2 feature2">
+										<img src={aesthetics} alt="" />
+									<div className="icon-content">
+										<h3 className="ttr-title">Psychotheraphy</h3>
+										<p>We have licensed mental health professionals who apply variety of treatment plans to help the patient identify and change troubled emotions, thought and behaviors</p>
+									</div>
+								</div>
+							</div>
 						</Slider>
 					</div>
 				</div>
