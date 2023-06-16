@@ -49,7 +49,7 @@ const Booking = () => {
 										<form>
 											<div className="form-group">
 											<select className="form-select form-control">
-														<option selected disabled>Selecty Department</option>
+														<option selected disabled>Select Department</option>
 														<option value="1">General Medicine</option>
 														<option value="2">General Surgery</option>
 														<option value="3">Paediatrics</option>
@@ -60,7 +60,7 @@ const Booking = () => {
 											</div>
 											<div className="form-group">
 												<select className="form-select form-control">
-													<option defaultValue disabled>Select Doctor</option>
+													<option selected disabled>Select Doctor</option>
 													<option value="1">Dr Chisom Onyeka</option>
 													<option value="2">Dr Chinwe Onuegbu</option>
 													<option value="3">Dr Sandra Ala</option>

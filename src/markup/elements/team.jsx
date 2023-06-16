@@ -40,8 +40,6 @@ const TeamSection = () => {
 				<div className="container">
 					<div className="heading-bx text-center">
 						<h2 className="title">Meet The Team</h2>
-							<p>The Medical staff consists of licensed experts; an Obstetrician/Gynecologist, a Paediatrician, an Orthopaedic/Traumatology Surgeon, a General Surgeon, a Radiologist, three Physicians (a Nephrologist, a Cardiologist and an Endocrinologist) a Urologist, a Physiotherapist, and a Dermatologist/Plastic Surgeon, and a Dietician.
-							</p>
 					</div>
 					<div className="row justify-content-center">
 						{doctors.map(doctor => (

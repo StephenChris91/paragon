@@ -11,6 +11,8 @@ import paediatrics from '../../images/bannerSlider/paediatrics.jpeg';
 import general from '../../images/bannerSlider/general.jpeg';
 import orthopedics from '../../images/bannerSlider/orthopedics.jpeg';
 import aesthetics from '../../images/bannerSlider/aesthetics.jpeg';
+import psycho from '../../images/bannerSlider/psycho.jpg';
+import dietetics from '../../images/bannerSlider/dietetics.jpg';
 
 const ServicesSliderSection = () => {
 
@@ -135,7 +137,7 @@ const ServicesSliderSection = () => {
 							</div>
 							<div className="slider-item">
 								<div className="feature-container feature-bx2 feature1">
-										<img src={orthopedics} alt="" />
+										<img src={dietetics} alt="" />
 									<div className="icon-content">
 										<h3 className="ttr-title">Dietetics</h3>
 										<p>Our team of dieticians provide suitable and exciting meal and nutrition plans that will prevent, treat diseases, promote and maintain the wellbeing of the body</p>
@@ -144,7 +146,7 @@ const ServicesSliderSection = () => {
 							</div>
 							<div className="slider-item">
 								<div className="feature-container feature-bx2 feature2">
-										<img src={aesthetics} alt="" />
+										<img src={psycho} alt="" />
 									<div className="icon-content">
 										<h3 className="ttr-title">Psychotheraphy</h3>
 										<p>We have licensed mental health professionals who apply variety of treatment plans to help the patient identify and change troubled emotions, thought and behaviors</p>
