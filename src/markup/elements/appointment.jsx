@@ -33,18 +33,19 @@ class aboutSection extends Component{
 														<option value="1">General Medicine</option>
 														<option value="2">General Surgery</option>
 														<option value="3">Paediatrics</option>
-														<option value="3">Radiology</option>
-														<option value="3">Physiotherapy</option>
-														<option value="3">Internal Medicine</option>
+														<option value="4">Radiology</option>
+														<option value="5">Physiotherapy</option>
+														<option value="6">Orthopaedics</option>
+														<option value="7">Internal Medicine</option>
 													</select>
 												</div>
 												<div className="form-group">
 												<select className="form-select form-control">
 													<option selected disabled>Select Doctor</option>
-													<option value="1">Dr Chisom Onyeka</option>
-													<option value="2">Dr Chinwe Onuegbu</option>
-													<option value="3">Dr Sandra Ala</option>
-													<option value="3">Dr Benedicta Ahiakwo</option>
+													<option value="1">Mrs. Chisom Onyeka</option>
+													<option value="2">Dr. Chinwe Onuegbu</option>
+													<option value="3">Mrs. Sandra Ala</option>
+													<option value="4">Mrs. Benedicta Ahiakwo</option>
 												</select>
 												</div>
 												<div className="form-group">
@@ -74,10 +75,10 @@ class aboutSection extends Component{
 									</div>
 								</div>					
 							</div>	
-							<img className="pt-img1 animate1" src={ptImg1} alt=""/>
+							{/* <img className="pt-img1 animate1" src={ptImg1} alt=""/>
 							<img className="pt-img2 animate-wave" src={ptImg2} alt=""/>
 							<img className="pt-img3 animate-wave" src={ptImg3} alt=""/>
-							<img className="pt-img4 animate2" src={ptImg4} alt=""/>
+							<img className="pt-img4 animate2" src={ptImg4} alt=""/> */}
 							
 						</div>
 						

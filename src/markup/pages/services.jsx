@@ -115,7 +115,7 @@ const Services = () => {
 								<div className="feature-container feature-bx2 feature1">
 								<img src={orthopedics} alt="" />
 									<div className="icon-content">
-										<h3 className="ttr-title">Orthopedic</h3>
+										<h3 className="ttr-title">Orthopaedics</h3>
 										<p>We help you get relief from pain and mobility problems caused by musculoskeletal issues.</p>
 									</div>
 								</div>

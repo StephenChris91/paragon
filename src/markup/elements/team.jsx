@@ -15,7 +15,7 @@ const TeamSection = () => {
 			image: teamMember3,
 		},
 		{
-			firstName: 'Mrs. Chinwe',
+			firstName: 'Dr. Chinwe',
 			lastName: 'Onuegbu',
 			title: 'Head of Clinical Services',
 			image: teamMember4

@@ -34,9 +34,9 @@ const Booking = () => {
 									</nav>
 								</div>
 							</div>
-							<img className="pt-img1 animate-wave" src={waveBlue} alt=""/>
+							{/* <img className="pt-img1 animate-wave" src={waveBlue} alt=""/>
 							<img className="pt-img2 animate2" src={circleDots} alt=""/>
-							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/>
+							<img className="pt-img3 animate-rotate" src={plusBlue} alt=""/> */}
 						</div>
 					</div>
 				
@@ -53,18 +53,19 @@ const Booking = () => {
 														<option value="1">General Medicine</option>
 														<option value="2">General Surgery</option>
 														<option value="3">Paediatrics</option>
-														<option value="3">Radiology</option>
-														<option value="3">Physiotherapy</option>
-														<option value="3">Internal Medicine</option>
+														<option value="4">Radiology</option>
+														<option value="5">Physiotherapy</option>
+														<option value="6">Orthopaedics</option>
+														<option value="7">Internal Medicine</option>
 													</select>
 											</div>
 											<div className="form-group">
 												<select className="form-select form-control">
 													<option selected disabled>Select Doctor</option>
-													<option value="1">Dr Chisom Onyeka</option>
-													<option value="2">Dr Chinwe Onuegbu</option>
-													<option value="3">Dr Sandra Ala</option>
-													<option value="3">Dr Benedicta Ahiakwo</option>
+													<option value="1">Mrs. Chisom Onyeka</option>
+													<option value="2">Dr. Chinwe Onuegbu</option>
+													<option value="3">Mrs. Sandra Ala</option>
+													<option value="4">Mrs. Benedicta Ahiakwo</option>
 												</select>
 											</div>
 											<div className="form-group">
