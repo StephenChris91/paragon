@@ -11,7 +11,7 @@ import slide3 from '../../images/bannerSlider/slide3.png'
 import slide4 from '../../images/bannerSlider/slide4.png'
 import slide5 from '../../images/bannerSlider/slide5.png'
 import slide6 from '../../images/bannerSlider/slide6.jpg'
-import slide7 from '../../images/bannerSlider/slide7.jpg'
+import slide7 from '../../images/bannerSlider/slide7.png'
 import slide8 from '../../images/bannerSlider/slide8.png'
 
 // Elements
