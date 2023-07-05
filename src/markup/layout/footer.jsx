@@ -82,7 +82,7 @@ const FooterSection = () => {
 						<div className="row">
 							<div className="col-12 text-center">
 								<PartnersLogos />
-								<p className="copyright-text">Copyright © 2023 Design & Developed by <a href="#" rel="noreferrer" target="_blank" className="text-secondary">Stephen Chris Codes</a> (c) Paragon Clinics & Imaging</p>
+								<p className="copyright-text">Copyright © Paragon Clinics & Imaging 2023</p>
 							</div>
 						</div>
 					</div>
