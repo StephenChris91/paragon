@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 import SimpleReactLightbox, { SRLWrapper } from 'simple-react-lightbox';
 
 // Import Images
