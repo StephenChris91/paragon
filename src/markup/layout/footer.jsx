@@ -32,8 +32,9 @@ const FooterSection = () => {
 											<div className="icon"><i className="fas fa-phone-alt"></i></div>
 											<div className="contact-number">
 												<span>Contact Us</span>
-												<a href='tel:+2348086666361'><h4 className="number">(+234)8100731625</h4></a>
+												<a href='tel:+2348100731625'><h4 className="number">(+234)8100731625</h4></a>
 												<a href='tel:+2349012592205'><h4 className="number">(+234)9012592205</h4></a>
+												<a href='tel:+2348086666361'><h4 className="number">(+234)8086666361</h4></a>
 											</div>
 										</div>
 									</div>

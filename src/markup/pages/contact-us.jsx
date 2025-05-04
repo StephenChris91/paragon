@@ -20,7 +20,8 @@ const ContactUs = () => {
 	// Phone numbers array
 	const phoneNumbers = [
 		{ id: 1, number: '(+234)8100731625', label: 'Main Office' },
-		{ id: 2, number: '(+234)9012592205', label: 'Customer Support' }
+		{ id: 2, number: '(+234)9012592205', label: 'Customer Support' },
+		{ id: 2, number: '(+234)8086666361', label: 'Customer Support' }
 	];
 	
 	// Handle phone selection and call
@@ -121,7 +122,13 @@ const ContactUs = () => {
 											<div className="icon-box">
 												<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Phone</h6>
 												<Link to="#" className="text-white">paragonclinics@gmail.com</Link>
-												<p>(+234)8100731625</p>
+												<p style={{
+													margin: 0
+												}}>(+234)8100731625</p>
+												<p style={{
+													margin: 0
+												}}>(+234)9012592205</p>
+												<p>(+234)8086666361</p>
 											</div>
 											<div className="icon-box">
 												<h6 className="title"><i className="ti-world"></i>Follow Us</h6>

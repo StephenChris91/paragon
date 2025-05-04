@@ -61,7 +61,7 @@ const Header = () => {
 								<div className="secondary-menu">
 									<ul>
 										<li className="search-btn"><button id="quikSearchBtn" type="button" className="btn-link"><i className="las la-search"></i></button></li>
-										<li className="num-bx"><a href="tel:(+234)8100731625"><i className="fas fa-phone-alt"></i> (+234)8100731625</a></li>
+										<li className="num-bx"><a href="tel:(+234)9012592205"><i className="fas fa-phone-alt"></i> (+234)9012592205</a></li>
 										<li className="btn-area"><Link to="/contact-us" className="btn btn-primary shadow">CONTACT US <i className="btn-icon-bx fas fa-chevron-right"></i></Link></li>
 									</ul>
 								</div>
