@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 // Layout
 import Header from "../layout/header2";
@@ -13,6 +14,27 @@ import icon3 from "../../images/icon/icon3.png";
 
 
 const ContactUs = () => {
+	// Phone number dropdown state
+	const [showPhoneDropdown, setShowPhoneDropdown] = useState(false);
+	
+	// Phone numbers array
+	const phoneNumbers = [
+		{ id: 1, number: '(+234)8100731625' },
+		{ id: 2, number: '(+234)9012592205' }
+	];
+	
+	// Handle phone selection and call
+	const handlePhoneCall = (number) => {
+		// Clean number for tel: protocol
+		const cleanNumber = number.replace(/\D/g, '');
+		window.location.href = `tel:+${cleanNumber}`;
+		setShowPhoneDropdown(false);
+	};
+	
+	// Toggle phone dropdown visibility
+	const togglePhoneDropdown = () => {
+		setShowPhoneDropdown(!showPhoneDropdown);
+	};
 
 	const center = {
 		lat: 4.770784,
@@ -118,8 +140,32 @@ const ContactUs = () => {
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-title">Contact Number</h5>
-										<p className='mb-20'>(+234)8086666361</p>
-										<li className="btn-area mt-20"><Link to="tel:+2348086666361" className="btn btn-primary shadow">Call Us Now</Link></li>
+										{phoneNumbers.map((phone) => (
+											<p key={phone.id} className="mb-20">{phone.number}</p>
+										))}
+										<div className="btn-area mt-20 position-relative">
+											<button 
+												onClick={togglePhoneDropdown}
+												className="btn btn-primary shadow"
+											>
+												Call Us Now
+											</button>
+											
+											{showPhoneDropdown && (
+												<div className="position-absolute w-100 bg-white shadow rounded mt-2 border" style={{ zIndex: 1000 }}>
+													{phoneNumbers.map((phone) => (
+														<div 
+															key={phone.id}
+															onClick={() => handlePhoneCall(phone.number)}
+															className="p-3 border-bottom cursor-pointer hover-bg-light"
+															style={{ cursor: 'pointer' }}
+														>
+															{phone.number}
+														</div>
+													))}
+												</div>
+											)}
+										</div>
 									</div>
 								</div>
 							</div>
