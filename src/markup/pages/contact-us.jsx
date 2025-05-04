@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Layout
 import Header from "../layout/header2";
@@ -14,13 +14,13 @@ import icon3 from "../../images/icon/icon3.png";
 
 
 const ContactUs = () => {
-	// Phone number dropdown state
-	const [showPhoneDropdown, setShowPhoneDropdown] = useState(false);
+	// Phone number popover state
+	const [showPhonePopover, setShowPhonePopover] = useState(false);
 	
 	// Phone numbers array
 	const phoneNumbers = [
-		{ id: 1, number: '(+234)8100731625' },
-		{ id: 2, number: '(+234)9012592205' }
+		{ id: 1, number: '(+234)8100731625', label: 'Main Office' },
+		{ id: 2, number: '(+234)9012592205', label: 'Customer Support' }
 	];
 	
 	// Handle phone selection and call
@@ -28,13 +28,22 @@ const ContactUs = () => {
 		// Clean number for tel: protocol
 		const cleanNumber = number.replace(/\D/g, '');
 		window.location.href = `tel:+${cleanNumber}`;
-		setShowPhoneDropdown(false);
+		setShowPhonePopover(false);
 	};
-	
-	// Toggle phone dropdown visibility
-	const togglePhoneDropdown = () => {
-		setShowPhoneDropdown(!showPhoneDropdown);
-	};
+
+	// Close popover when clicking outside
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (showPhonePopover && !event.target.closest('.phone-popover-container')) {
+				setShowPhonePopover(false);
+			}
+		};
+
+		document.addEventListener('mousedown', handleClickOutside);
+		return () => {
+			document.removeEventListener('mousedown', handleClickOutside);
+		};
+	}, [showPhonePopover]);
 
 	const center = {
 		lat: 4.770784,
@@ -112,7 +121,7 @@ const ContactUs = () => {
 											<div className="icon-box">
 												<h6 className="title"><i className="ti-id-badge"></i>Email &amp; Phone</h6>
 												<Link to="#" className="text-white">paragonclinics@gmail.com</Link>
-												<p>(+234)8086666361</p>
+												<p>(+234)8100731625</p>
 											</div>
 											<div className="icon-box">
 												<h6 className="title"><i className="ti-world"></i>Follow Us</h6>
@@ -138,31 +147,60 @@ const ContactUs = () => {
 									<div className="icon-md feature-icon">
 										<img src={icon1} alt="" />
 									</div>
-									<div className="icon-content">
+																		<div className="icon-content">
 										<h5 className="ttr-title">Contact Number</h5>
 										{phoneNumbers.map((phone) => (
-											<p key={phone.id} className="mb-20">{phone.number}</p>
+											<p key={phone.id} className="mb-20">
+												{phone.number} <span style={{color: '#666', fontSize: '0.9em'}}></span>
+											</p>
 										))}
-										<div className="btn-area mt-20 position-relative">
+										<div className="btn-area mt-20 phone-popover-container" style={{ position: 'relative', display: 'inline-block' }}>
 											<button 
-												onClick={togglePhoneDropdown}
+												type="button"
 												className="btn btn-primary shadow"
+												onClick={() => setShowPhonePopover(!showPhonePopover)}
 											>
 												Call Us Now
 											</button>
 											
-											{showPhoneDropdown && (
-												<div className="position-absolute w-100 bg-white shadow rounded mt-2 border" style={{ zIndex: 1000 }}>
-													{phoneNumbers.map((phone) => (
-														<div 
-															key={phone.id}
-															onClick={() => handlePhoneCall(phone.number)}
-															className="p-3 border-bottom cursor-pointer hover-bg-light"
-															style={{ cursor: 'pointer' }}
-														>
-															{phone.number}
-														</div>
-													))}
+											{showPhonePopover && (
+												<div 
+													role="dialog" 
+													className="absolute z-10 bg-white border border-gray-200 rounded-lg shadow-lg"
+													style={{ 
+														left: 'calc(100% + 15px)', 
+														top: '50%', 
+														transform: 'translateY(-50%)',
+														width: '250px'
+													}}
+												>
+
+													<div className="px-3 py-2">
+														{phoneNumbers.map((phone) => (
+															<div 
+																key={phone.id}
+																onClick={() => handlePhoneCall(phone.number)}
+																className="py-3 cursor-pointer hover:bg-gray-50 rounded px-2 transition-colors border-b border-gray-100 last:border-0"
+															>
+																<div className="font-medium">{phone.number}</div>
+															</div>
+														))}
+													</div>
+													{/* Arrow pointer */}
+													<div 
+														style={{
+															position: 'absolute',
+															width: '10px',
+															height: '10px',
+															left: '-5px',
+															top: '50%',
+															marginTop: '-5px',
+															transform: 'rotate(45deg)',
+															backgroundColor: 'white',
+															borderLeft: '1px solid #e5e7eb',
+															borderBottom: '1px solid #e5e7eb'
+														}}
+													></div>
 												</div>
 											)}
 										</div>
